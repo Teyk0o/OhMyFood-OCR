@@ -1,0 +1,227 @@
+body {
+    font-family: Roboto, sans-serif;
+}
+
+.heading {
+    background-color: white;
+    height: 80px;
+    width: auto;
+    box-shadow: #a9a7a7 4px 7px 7px;
+    margin: auto;
+    margin-top: 22px;
+}
+
+.logo {
+    margin: auto;
+    display: block;
+    height: auto;
+    width: 353px;
+}
+
+.localisation {
+    background-color: #e5e5e5;
+    height: 100px;
+    width: auto;
+    margin: auto;
+    margin-top: 8px;
+}
+
+.gps {
+    position: relative;
+    display: flex;
+    font-size: 34px;
+    margin: auto;
+    left: -4%;
+    top: 27px;
+    width: 269px;
+    height: 55px;
+}
+
+.icon {
+    position: relative;
+    height: 35px;
+    margin: 15px;
+    top: -14px;
+}
+
+.reservation {
+    background-color: #f3f3f3;
+    height: 690px;
+    width: auto;
+}
+
+.titre {
+    position: relative;
+    font-size: 61px;
+    left: 0;
+    top: 91px;
+    margin: auto;
+    text-align: center;
+}
+
+.decouv {
+    position: relative;
+    font-size: 45px;
+    left: 0;
+    top: 71px;
+    text-align: center;
+    color: #868686;
+}
+
+.explo {
+    position: relative;
+    height: 115px;
+    width: 500px;
+    background: linear-gradient(to bottom right, #FF79DA, #9356DC);
+    border-radius: 60px;
+    top: 90px;
+    left: 24%;
+    font-size: 37px;
+    color: #fff;
+    border: none;
+}
+
+
+.onglet {
+    position: relative;
+    font-size: 60px;
+    top: 47px;
+    left: 4%;
+    font-weight: bold;
+}
+
+.phone {
+    position: relative;
+    height: 46px;
+    margin: 24px;
+    top: 29px;
+    margin-left: -63px;
+}
+
+#cercle1 {
+    position: relative;
+    text-align: center;
+    width: 50px;
+    height: 50px;
+    border-radius: 26px;
+    background: #9356DC;
+    color: white;
+    font-size: 28px;
+    z-index: 1;
+    top: 116px;
+    left: 6%;
+}
+
+.choix {
+    position: relative;
+    text-align: center;
+    top: -28px;
+    left: 8%;
+    height: 151px;
+    width: 795px;
+    background-color: #f8f8f8;
+    border-radius: 35px;
+    border: none;
+    flex-direction: row;
+    font-size: 41px;
+    box-shadow: #e3e3e3 6px 8px 9px;
+}
+
+.list {
+    position: relative;
+    height: 39px;
+    margin: 25px;
+    top: 29px;
+    margin-left: -100px;
+}
+
+#cercle2 {
+    position: relative;
+    text-align: center;
+    width: 50px;
+    height: 50px;
+    border-radius: 26px;
+    background: #9356DC;
+    color: white;
+    font-size: 28px;
+    z-index: 1;
+    top: 44px;
+    left: 6%;
+}
+
+.compo {
+    position: relative;
+    text-align: center;
+    height: 151px;
+    width: 795px;
+    background-color: #f8f8f8;
+    border-radius: 35px;
+    border: none;
+    flex-direction: row;
+    top: -99px;
+    left: 8%;
+    font-size: 41px;
+    box-shadow: #e3e3e3 6px 8px 9px;
+}
+
+.maga {
+    position: relative;
+    height: 43px;
+    margin: 24px;
+    top: 29px;
+    margin-left: -87px;
+}
+
+#cercle3 {
+    position: relative;
+    text-align: center;
+    width: 50px;
+    height: 50px;
+    border-radius: 26px;
+    background: #9356DC;
+    color: white;
+    font-size: 28px;
+    z-index: 1;
+    top: -25px;
+    left: 6%;
+}
+
+.deguste {
+    position: relative;
+    text-align: center;
+    height: 151px;
+    width: 795px;
+    background-color: #ede9ff;
+    border-radius: 35px;
+    border: none;
+    flex-direction: row;
+    top: -170px;
+    left: 8%;
+    font-size: 41px;
+    box-shadow: #e3e3e3 6px 8px 9px;
+}
+
+.Resto {
+
+}
+
+.plat1 {
+
+}
+
+.imgPlat1 {
+
+}
+
+.titrePlat1 {
+
+}
+
+.sous-titrePlat1 {
+
+}
+
+.heart1 {
+
+}
+
