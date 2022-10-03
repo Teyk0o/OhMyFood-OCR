@@ -1,5 +1,7 @@
 body {
     font-family: Roboto, sans-serif;
+    margin-right: 0px;
+    width: 1000px;
 }
 
 .heading {
@@ -70,12 +72,13 @@ body {
 
 .explo {
     position: relative;
+    margin: auto;
     height: 115px;
     width: 500px;
     background: linear-gradient(to bottom right, #FF79DA, #9356DC);
     border-radius: 60px;
     top: 90px;
-    left: 24%;
+    left: 25%;
     font-size: 37px;
     color: #fff;
     border: none;
@@ -109,14 +112,14 @@ body {
     font-size: 28px;
     z-index: 1;
     top: 116px;
-    left: 6%;
+    left: 8%;
 }
 
 .choix {
     position: relative;
     text-align: center;
     top: -28px;
-    left: 8%;
+    left: 11%;
     height: 151px;
     width: 795px;
     background-color: #f8f8f8;
@@ -146,7 +149,7 @@ body {
     font-size: 28px;
     z-index: 1;
     top: 44px;
-    left: 6%;
+    left: 8%;
 }
 
 .compo {
@@ -159,7 +162,7 @@ body {
     border: none;
     flex-direction: row;
     top: -99px;
-    left: 8%;
+    left: 11%;
     font-size: 41px;
     box-shadow: #e3e3e3 6px 8px 9px;
 }
@@ -183,7 +186,7 @@ body {
     font-size: 28px;
     z-index: 1;
     top: -25px;
-    left: 6%;
+    left: 8%;
 }
 
 .deguste {
@@ -196,32 +199,126 @@ body {
     border: none;
     flex-direction: row;
     top: -170px;
-    left: 8%;
+    left: 11%;
     font-size: 41px;
     box-shadow: #e3e3e3 6px 8px 9px;
 }
 
 .Resto {
-
+    position: relative;
+    font-size: 60px;
+    top: 55px;
+    left: 4%;
+    font-weight: bold;
 }
 
 .plat1 {
+    position: relative;
+    margin: auto;
+    display: block;
+    background-color: #f1f1f1;
+    height: auto;
+    width: auto;
 
 }
 
 .imgPlat1 {
+    position: relative;
+    display: block;
+    width: auto;
+    height:600px;
+    margin: auto;
+    top: 30px;
+    left: 0%;
+    border-radius: 35px;
+}
 
+.description1 {
+    position: relative;
+    display: block;
+    background-color: white;
+    width: 905px;
+    height: 151px;
+    border-radius: 35px;
+    top: -77px;
+    left: 4.5%;
 }
 
 .titrePlat1 {
-
+    position: relative;
+    z-index: 1;
+    font-size: 37px;
+    margin: auto;
+    top: 23px;
+    left: 3%;
 }
 
 .sous-titrePlat1 {
-
+    position: relative;
+    z-index: 1;
+    font-size: 34px;
+    top: -3px;
+    left: 3%;
 }
 
 .heart1 {
+    position: relative;
+    width: 25px;
+    height: 25px;
+    background: linear-gradient(to bottom right, #FF79DA, #9356DC);
+    z-index: 1;
+    bottom: 104px;
+    left: 86%;
+}
 
+.heart1:before {
+    position: relative;
+    z-index: auto;
+    bottom: 104px;
+    left: 86%;
+    width: 25px;
+    height: 25px;
+    contenu: '';
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -o-border-radius: 50%;
+    border-radius: 50%;
+    background: linear-gradient(to bottom right, #FF79DA, #9356DC);
+}
+
+.heart1:after {
+    position: absolue;
+    z-index: auto;
+    top: 104px;
+    right: 86%;
+    width: 25px;
+    height: 25px;
+    contenu: '';
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -o-border-radius: 50%;
+    border-radius: 50%;
+    background: linear-gradient(to bottom right, #FF79DA, #9356DC);
+}
+
+.heart1 {
+    position: relative;
+    -webkit-transform: tourne(45deg);
+    -moz-transform: faire pivoter(45deg);
+    -ms-transform: rotation(45deg);
+    -o-transform: rotation(45deg);
+    transformer: tourner(45deg);
+}
+
+.etiquette {
+    position: relative;
+    color: #10836f;
+    background-color: #99E2D0;
+    height: 55px;
+    width: 155px;
+    font-size: 35px;
+    padding: 15px 5px 3px 30px;
+    bottom: 690px;
+    left: 73%;
 }
 
