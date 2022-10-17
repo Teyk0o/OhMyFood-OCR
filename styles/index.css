@@ -1,5 +1,6 @@
 html {
-    width: 167%;
+    width: 153%;
+    overflow-x: hidden;
 }
 
 body {
@@ -10,24 +11,26 @@ body {
 .heading {
     position: relative;
     background-color: white;
-    height: 80px;
+    height: 121px;
     width: 107%;
     box-shadow: #a9a7a7 11px 16px 21px;
     margin: auto;
-    margin-top: 21px;
+    margin-top: 58px;
     z-index: 1;
 }
 
 .logo {
+    position: relative;
     margin: auto;
     display: block;
     height: auto;
-    width: 353px;
+    width: 488px;
+    left: -37px;
 }
 
 .localisation {
     background-color: #e5e5e5;
-    height: 100px;
+    height: 152px;
     width: 107%;
     margin: auto;
 
@@ -36,41 +39,41 @@ body {
 .gps {
     position: relative;
     display: flex;
-    font-size: 34px;
+    font-size: 47px;
     margin: auto;
     left: -4%;
-    top: 27px;
-    width: 269px;
+    top: 51px;
+    width: 358px;
     height: 55px;
 }
 
 .icon {
     position: relative;
-    height: 35px;
+    height: 40px;
     margin: 15px;
-    top: -14px;
+    top: -10px;
 }
 
 .reservation {
     background-color: #f3f3f3;
-    height: 690px;
-    width: 107%;
+    height: 1038px;
+    width: 100%;
 }
 
 .titre {
     position: relative;
-    font-size: 61px;
+    font-size: 85px;
     left: 0;
-    top: 91px;
+    top: 151px;
     margin: auto;
     text-align: center;
 }
 
 .decouv {
     position: relative;
-    font-size: 45px;
+    font-size: 68px;
     left: 0;
-    top: 71px;
+    top: 128px;
     text-align: center;
     color: #868686;
 }
@@ -78,15 +81,17 @@ body {
 .explo {
     position: relative;
     margin: auto;
-    height: 115px;
-    width: 500px;
+    height: 167px;
+    width: 746px;
     background: linear-gradient(to bottom right, #FF79DA, #9356DC);
-    border-radius: 60px;
-    top: 90px;
-    left: 25%;
-    font-size: 37px;
+    border-radius: 90px;
+    top: 164px;
+    left: 24%;
+    font-size: 47px;
     color: #fff;
     border: none;
+    font-weight: bold;
+    box-shadow: #b9b7b7 8px 10px 24px;
 }
 
 .fonction {
@@ -97,7 +102,7 @@ body {
 
 .onglet {
     position: relative;
-    font-size: 60px;
+    font-size: 80px;
     top: 47px;
     left: 4%;
     font-weight: bold;
@@ -106,85 +111,87 @@ body {
 .bouton {
     position: relative;
     text-align: center;
-    height: 151px;
-    width: 795px;
-    top: 35px;
-    left: 5%;
+    height: 221px;
+    width: 1270px;
+    top: 57px;
+    left: 0;
     margin: auto;
     background-color: #f8f8f8;
-    border-radius: 35px;
+    border-radius: 55px;
     border: none;
     flex-direction: row;
     box-shadow: #e3e3e3 11px 13px 33px;
+    cursor: pointer;
 }
 
 .phone {
     position: relative;
-    height: 46px;
-    margin: 24px;
-    top: 29px;
+    height: 60px;
+    margin: 13px;
+    top: 21px;
     margin-left: -63px;
 }
 
 #cercle {
     position: relative;
     text-align: center;
-    width: 50px;
-    height: 50px;
-    border-radius: 26px;
+    width: 68px;
+    height: 70px;
+    border-radius: 50px;
     background: #9356DC;
     color: white;
-    font-size: 30px;
+    font-size: 51px;
     z-index: 1;
-    top: 55px;
-    left: -8%;
+    top: 83px;
+    left: -6%;
     margin: 48px;
 }
 
 .choix {
     position: relative;
-    top: -96px;
-    left: 3%;
-    font-size: 41px;
-    margin: 35px;
+    top: -80px;
+    left: 1%;
+    font-size: 57px;
+    margin: 56px;
 }
 
 .list {
     position: relative;
-    height: 39px;
-    margin: 25px;
-    top: 29px;
+    height: 52px;
+    margin: 15px;
+    top: 21px;
     margin-left: -100px;
 }
 
 .bouton2 {
     position: relative;
     text-align: center;
-    height: 151px;
-    width: 795px;
-    top: 35px;
-    left: 5%;
+    height: 221px;
+    width: 1270px;
+    top: 55px;
+    left: 0;
     margin: auto;
     background-color: #ebdffd;
-    border-radius: 35px;
+    border-radius: 55px;
     border: none;
     flex-direction: row;
     box-shadow: #e3e3e3 11px 13px 33px;
+    cursor: pointer;
 }
 
 .choix2 {
     position: relative;
-    top: -96px;
-    left: 3%;
-    font-size: 41px;
+    top: -71px;
+    left: 0.4%;
+    font-size: 57px;
     margin: 35px;
 }
 
 .maga {
     position: relative;
-    height: 43px;
-    margin: 24px;
-    top: 29px;
+    height: 55px;
+    margin: 16px;
+    top: 22px;
     margin-left: -87px;
 }
 
@@ -196,14 +203,15 @@ body {
     justify-content: center;
     background-color: #f1f1f1;
     width: 107%;
-    top: -25px;
-    height: 3025px;
+    top: 57px;
+    height: 100%;
+    padding-bottom: 395px;
 }
 
 .Resto {
     position: relative;
-    font-size: 70px;
-    top: -4px;
+    font-size: 85px;
+    top:107px;
     left: 4%;
     font-weight: bold;
 }
@@ -213,50 +221,64 @@ body {
     padding-bottom: 150px;
     margin: 22px;
     background-color: white;
-    border-radius: 35px 35px 35px 35px;
-    height: 476px;
-    width: 77%;
-    top: -17px;
-    left: 7%;
+    border-radius: 50px 50px 50px 50px;
+    height: 736px;
+    width: 80%;
+    top:122px;
+    left: 5%;
     box-shadow: #bebebe 11px 16px 33px;
+    cursor: pointer;
+}
 
+.menu1 {
+    position: relative;
+    padding-bottom: 150px;
+    margin: 22px;
+    background-color: white;
+    border-radius: 50px 50px 50px 50px;
+    height: 736px;
+    width: 80%;
+    top: 128px;
+    left: 5%;
+    box-shadow: #bebebe 11px 16px 33px;
+    cursor: pointer;
 }
 
 .imgPlat {
     position: relative;
     display: block;
     width: 100%;
-    height:449px;
+    height:625px;
     margin: 0 0px 0px 0px;
     top: 3px;
-    border-radius: 35px 35px 0px 0px;
+    border-radius: 50px 50px 0px 0px;
     object-fit: cover;
 }
 
 .titrePlat {
     position: relative;
     z-index: 1;
-    font-size: 44px;
+    font-size: 61px;
     margin: auto;
-    top: 35px;
+    top: 52px;
     left: 4%;
 }
 
 .sous-titrePlat {
     position: relative;
     z-index: 1;
-    font-size: 41px;
-    top: 1px;
+    font-size: 57px;
+    top: 8px;
     left: 4%;
     color: #444444;
 }
 
 .heart {
     position: relative;
-    width: 50px;
-    height: 50px;
+    width: 78px;
+    height: 80px;
     z-index: 1;
-    bottom: 135px;
+    bottom: 181px;
     left: 86%;
 }
 
@@ -264,85 +286,82 @@ body {
     position: relative;
     color: #10836f;
     background-color: #99E2D0;
-    height: 55px;
-    width: 155px;
-    font-size: 35px;
+    height: 82px;
+    width: 210px;
+    font-size: 51px;
     margin: 15px;
     z-index: 1;
     padding: 15px 5px 3px 30px;
-    bottom: 674px;
-    left: 73%;
+    bottom: 934px;
+    left: 77%;
+    font-weight: bold;
+    border-radius: 10px;
 }
 
 .footer {
     position: relative;
     background-color: #383838;
-    height: 558px;
-    width: 98%;
+    height: 700px;
+    width: 101%;
     left: -10px;
-    top: -21px;
-    bottom: 0;
 }
 
 .footerlogo {
     position: relative;
     display: block;
     height: auto;
-    width: 264px;
+    width: 368px;
     left: 7%;
     top: 74px;
+    filter: invert(1);
 }
 
 .objet {
     position: relative;
-    padding-bottom: 15px;
+    padding-bottom: 7px;
     top: 86px;
     color: white;
 }
 
 .proposer {
     position: relative;
-    font-size: 40px;
+    font-size: 52px;
     left: 7%;
-    font-weight: bold;
     flex-direction: row;
 }
 
 .couverts {
     position: relative;
     height: auto;
-    width: 40px;
+    width: 51px;
     top: 7px;
-    padding-right: 15px;
+    padding-right: 25px;
 }
 
 .partenaire {
     position: relative;
-    font-size: 40px;
+    font-size: 52px;
     left: 7%;
-    font-weight: bold;
     flex-direction: row;
 }
 
 .entente {
     position: relative;
     height: auto;
-    width: 40px;
+    width: 51px;
     top: 9px;
-    padding-right: 15px;
+    padding-right: 25px;
 }
 
 .mentions {
     position: relative;
-    font-size: 40px;
+    font-size: 52px;
     left: 7%;
-    font-weight: bold;
 }
 
 .contact {
     position: relative;
-    font-size: 40px;
+    font-size: 52px;
     left: 7%;
-    font-weight: bold;
 }
 
