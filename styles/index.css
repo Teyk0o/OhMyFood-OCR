@@ -11,11 +11,11 @@ body {
 .heading {
     position: relative;
     background-color: white;
-    height: 121px;
+    height: 206px;
     width: 107%;
     box-shadow: #a9a7a7 11px 16px 21px;
     margin: auto;
-    margin-top: 58px;
+    margin-top: -6px;
     z-index: 1;
 }
 
@@ -24,8 +24,9 @@ body {
     margin: auto;
     display: block;
     height: auto;
-    width: 488px;
-    left: -37px;
+    width: 603px;
+    left: -58px;
+    top: 58px;
 }
 
 .localisation {
