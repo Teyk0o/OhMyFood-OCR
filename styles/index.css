@@ -89,7 +89,7 @@ body {
     top: 164px;
     left: 24%;
     font-size: 47px;
-    color: #fff;
+    color: #f3f3f3;
     border: none;
     font-weight: bold;
     box-shadow: #b9b7b7 8px 10px 24px;
@@ -229,6 +229,7 @@ body {
     left: 5%;
     box-shadow: #bebebe 11px 16px 33px;
     cursor: pointer;
+    text-decoration: none;
 }
 
 .menu1 {
@@ -243,6 +244,7 @@ body {
     left: 5%;
     box-shadow: #bebebe 11px 16px 33px;
     cursor: pointer;
+    text-decoration: none;
 }
 
 .imgPlat {

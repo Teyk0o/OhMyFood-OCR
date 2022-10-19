@@ -1,13 +1,12 @@
 html {
     width: 152%;
-    height: 99%;
     overflow-x: hidden;
 }
 
 body {
     font-family: Roboto, sans-serif;
     width: 100%;
-    height: 99%;
+    height: 100px;
 }
 
 .heading {
@@ -19,6 +18,7 @@ body {
     margin-top: -6px;
     margin-bottom: 8px;
     z-index: 1;
+    left: -1%;
 }
 
 .logo {
@@ -42,7 +42,10 @@ body {
 .imgPlat {
     position: relative;
     width: 101%;
+    height: 63em;
     left: -1%;
+    top: -9px;
+    padding-bottom: 5px;
 }
 
 .menu {
@@ -50,11 +53,10 @@ body {
     background-color: #f3f3f3;
     border-radius: 150px 150px 0px 0px;
     border: none;
-    height: 212%;
+    height: 4502%;
     width: 101%;
     z-index: 1;
-    bottom: 0;
-    top: -288px;
+    bottom: 283px;
     left: -1%;
 }
 
@@ -74,10 +76,16 @@ body {
     left: 82%;
 }
 
+.categorie {
+    position: relative;
+    top: 9px;
+    padding-bottom: 69px;
+}
+
 .plat {
     position: relative;
     font-size: 70px;
-    left: 4%;
+    left: 5%;
     top: 11px;
     color: #444444;
 }
@@ -85,9 +93,9 @@ body {
 .barre {
     position: relative;
     height: 12px;
-    width: 137px;
+    width: 150px;
     background-color: #99E2D0;
-    left: 4%;
+    left: 5%;
     top: -45px;
 }
 
@@ -152,8 +160,8 @@ button {
     height: 700px;
     width: 101%;
     left: -10px;
-    top: 2558px;
-    bottom: 0;
+    padding-bottom: 22px;
+    padding-top: 9px;
 }
 
 .footerlogo {

@@ -1,13 +1,13 @@
 html {
     width: 152%;
-    height: 100%;
     overflow-x: hidden;
+    background-color: #f3f3f3;
 }
 
 body {
     font-family: Roboto, sans-serif;
     width: 100%;
-    height: 488%;
+    height: 100px;
 }
 
 .heading {
@@ -15,10 +15,11 @@ body {
     background-color: white;
     height: 206px;
     width: 107%;
-    left: -1%;
+    margin: auto;
     margin-top: -6px;
     margin-bottom: 8px;
     z-index: 1;
+    left: -1%;
 }
 
 .logo {
@@ -40,9 +41,13 @@ body {
 }
 
 .imgPlat {
-    /*width: 100%;*/
-    /*height: 20em;*/
-    /*margin: 0 0 -5em 0;*/
+    position: relative;
+    object-fit: cover;
+    width: 101%;
+    height: 70em;
+    left: -1%;
+    top: -9px;
+    padding-bottom: 5px;
 }
 
 .menu {
@@ -50,18 +55,17 @@ body {
     background-color: #f3f3f3;
     border-radius: 150px 150px 0px 0px;
     border: none;
-    height: 45%;
+    height: 4575%;
     width: 101%;
     z-index: 1;
-    bottom: 0;
-    top: -1079px;
+    bottom: 283px;
     left: -1%;
 }
 
 .titre {
     position: relative;
     font-size: 116px;
-    left: 4%;
+    left: 5%;
     bottom: -118px;
     font-style: italic;
 }
@@ -74,10 +78,16 @@ body {
     left: 82%;
 }
 
+.categorie {
+    position: relative;
+    top: 9px;
+    padding-bottom: 69px;
+}
+
 .plat {
     position: relative;
     font-size: 70px;
-    left: 4%;
+    left: 5%;
     top: 11px;
     color: #444444;
 }
@@ -85,9 +95,9 @@ body {
 .barre {
     position: relative;
     height: 12px;
-    width: 137px;
+    width: 150px;
     background-color: #99E2D0;
-    left: 4%;
+    left: 5%;
     top: -45px;
 }
 
@@ -152,7 +162,8 @@ button {
     height: 700px;
     width: 101%;
     left: -10px;
-    bottom: 1079px;
+    padding-bottom: 22px;
+    padding-top: 9px;
 }
 
 .footerlogo {
