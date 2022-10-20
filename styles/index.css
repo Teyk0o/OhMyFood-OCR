@@ -217,6 +217,10 @@ body {
     font-weight: bold;
 }
 
+a {
+    text-decoration: none;
+}
+
 .menu {
     position: relative;
     padding-bottom: 150px;
@@ -261,10 +265,12 @@ body {
 .titrePlat {
     position: relative;
     z-index: 1;
-    font-size: 61px;
+    font-size: 68px;
     margin: auto;
     top: 52px;
     left: 4%;
+    text-decoration: none;
+    color: #2f2f2f;
 }
 
 .sous-titrePlat {
